@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "zenmc.seedload.gg",
+    "ip": "zenmc.seedloaf.gg",
     "port": 25565,
     "version": "1.20.1",
     "try-creative": false

@@ -24,7 +24,7 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
@@ -39,20 +39,36 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 200000
   },
-  "movement": {
+ "movement": {
+  "enabled": true,
+
+  "human-mode": {
     "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
+    "min-walk-time": 2500,
+    "max-walk-time": 9000,
+    "min-idle-time": 1200,
+    "max-idle-time": 6000,
+    "min-turn-time": 800,
+    "max-turn-time": 3500,
+    "destination-radius": 10,
+    "sprint-chance": 0.25,
+    "jump-chance": 0.12
+  },
+
+  "circle-walk": {
+    "enabled": false,
+    "radius": 4,
+    "speed": 3000
+  },
+
+  "look-around": {
+    "enabled": false,
+    "interval": 5000
+  },
+
+  "random-jump": {
+    "enabled": false,
+    "interval": 10000
     }
   },
   "modules": {

@@ -19,7 +19,7 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
+      "enabled": true,
       "password": "SoloPlayz"
     },
     "anti-afk": {
@@ -37,7 +37,7 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 200000
   },
  "movement": {
   "enabled": true,
